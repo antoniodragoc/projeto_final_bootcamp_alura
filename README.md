@@ -27,9 +27,7 @@
   
   Para isso será utilizado como base os dados disponibilizados pelo hospital Sírio-Libanês na comunidade de data science Kaggle ([link](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19)). Para a escolha do melhor modelo de previsão será utilizada a técnica de validação cruzada, ou Cross-Validation, que consistem em comparar várias possibilidades de parâmetros nos modelos de previsão.
   
-
-
-
-
-
-
+## Conslusões 
+  
+  Após a otimização dos três melhores modelos testados (Random Forest, Logistic Regression e XGB Classifier) chegamos a conlusão que o desempenho do XBG foi superior, apresentando uma acurácia de 89,55% o que é bem supreendente tendo em vista que o conjunto de dados em questão é bem pequeno.
+  Além do mais, o resultado se mostrou bem robusto já que nos testes de performance do classification_report apresentou resultados bem interessantes com a acurácia em torno de 80% em todos os cenários.
